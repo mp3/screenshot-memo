@@ -1,7 +1,7 @@
 {
   "name": "screenshot-memo",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "main.js",
   "repository": "git@github.com:mp3/screenshot-memo.git",
   "author": "mp3 <im.in.a.coma.xxx@gmail.com>",
   "license": "MIT",

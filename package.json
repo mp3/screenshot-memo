@@ -5,12 +5,17 @@
   "repository": "git@github.com:mp3/screenshot-memo.git",
   "author": "mp3 <im.in.a.coma.xxx@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "start": "yarn run build && electron ./dist/main.js"
+  },
   "dependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
-    "@types/node": "^13.13.4",
+    "@types/node": "12",
     "@types/react": "^16.9.34",
     "@types/react-dom": "^16.9.7",
     "electron": "^8.2.5",

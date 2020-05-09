@@ -29,7 +29,7 @@ module.exports = [
   {
     entry: "./src/renderer/renderer.ts",
     output: {
-      path: path.resolve(__dirname, 'dist/renderer'),
+      path: path.resolve(__dirname, 'dist'),
       filename: 'renderer.js'
     },
     target: 'electron-renderer',

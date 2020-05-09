@@ -6,8 +6,8 @@
   "author": "mp3 <im.in.a.coma.xxx@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "tsc",
-    "watch": "tsc -w",
+    "build": "webpack --mode production",
+    "watch": "webpack --mode development --watch",
     "start": "yarn run build && electron ./dist/main.js"
   },
   "dependencies": {

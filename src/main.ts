@@ -1,5 +1,4 @@
 import { app, BrowserWindow } from 'electron'
-import * as path from 'path'
 
 const createWindow = () => {
   const win = new BrowserWindow({
@@ -10,7 +9,7 @@ const createWindow = () => {
     }
   })
 
-  win.loadFile(path.join(__dirname, '../index.html'))
+  win.loadFile('../index.html')
 
   win.webContents.openDevTools()
 }
